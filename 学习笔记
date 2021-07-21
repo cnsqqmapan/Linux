@@ -22,4 +22,9 @@
     cdecall: 参数从右向左入参，由调用者释放。
   4.2 使用dll 
     共享内存的方式：由调用者申请一块保存数据的内存，然后将这块内存地址传入 到dll 中。 dll 向这块内存填写数据。
+    
+5. tar 
+  5.1 压缩命令 tar -cvf xxx.tar file1 file2 file3...
+  5.2 解压缩命令 tar -xvf xxx.tar
+  5.3 查看压缩包内容 tar -tvf xxx.tar
 
